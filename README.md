@@ -1,7 +1,7 @@
 
-## Collaboration Accelerator for Star Citizen Community Developers
-
+## Open Principles
+> What we make is made better together.
 - Open Development
 - Open Collaboration
-- Open Contribution
+- Open Standards
 - Open API

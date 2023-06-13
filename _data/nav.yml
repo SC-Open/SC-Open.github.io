@@ -1,0 +1,11 @@
+nav:
+  - title: Home
+    url: README.md
+    subnav:
+      - title: About
+        url: About.md
+        subnav:
+          - title: Sponsor
+            url: Sponsor.md
+  - title: Help
+    url: help.md
