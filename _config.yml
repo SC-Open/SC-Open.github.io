@@ -1,9 +1,10 @@
+name: SC-Open.dev
 timezone: America/New_York
 layouts_dir: _layouts
+author_name: "SC-Open.dev"
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      author_name: "SC-Open.dev"
