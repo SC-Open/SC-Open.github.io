@@ -3,7 +3,7 @@
     {% for item in site.data.nav.toc %}
       <li><a href="{{ item.url }}">{{ item.title }}</a>
         {% if item.subnav %}
-          {% include nav.html nav=item.subnav %}
+          {% include navigation.html nav=item.subnav %}
         {% endif %}
       </li>
     {% endfor %}
