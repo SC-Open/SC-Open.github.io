@@ -1,8 +1,12 @@
 name: SC-Open.dev
 url: https://www.sc-open.dev
-title: SC-Open.dev
 timezone: America/New_York
-layouts_dir: _layouts
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+  - jekyll-remote-theme
+title: SC-Open.dev
+description: Collaboration Accelerator for Star Citizen Community Developers
+# layouts_dir: _layouts
 author_name: "SC-Open.dev"
 defaults:
   -
