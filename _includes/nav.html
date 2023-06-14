@@ -1,10 +1,7 @@
 <!DOCTYPE html>
+<h2>{{ site.data.nav.nav_list_title }}</h2>
 <ul>
     {% for item in site.data.nav.nav %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a>
-        {% if item.subnav %}
-          {% include nav.html nav=item.subnav %}
-        {% endif %}
-      </li>
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
     {% endfor %}
   </ul>

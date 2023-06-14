@@ -1,11 +1,13 @@
+nav_list_title: Navigation
 nav:
   - title: Home
     url: README.md
-    subnav:
-      - title: About
-        url: About.html
-        subnav:
-          - title: Sponsor
-            url: SPONSORS.md
+
+  - title: About
+    url: About.html
+
+  - title: Sponsor
+    url: SPONSORS.md
+    
   - title: Help
     url: help.md
