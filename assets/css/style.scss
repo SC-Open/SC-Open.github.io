@@ -5,3 +5,35 @@
     color: lightgray;
     cursor: default;
 }
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    overflow-y: auto;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+  }
+  
+  .sidebar li:hover {
+    background-color: #ddd;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar a:hover {
+    color: #000;
+  }
