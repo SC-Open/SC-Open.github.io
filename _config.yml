@@ -6,7 +6,7 @@ plugins:
   - jekyll-remote-theme
 title: SC-Open.dev
 description: Collaboration Accelerator for Star Citizen Community Developers
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-slate
 layouts_dir: _layouts
 author_name: "SC-Open.dev"
