@@ -1,13 +1,19 @@
 nav_list_title: Navigation
 nav:
   - title: Home
-    url: README.md
+    url: /
 
   - title: About
-    url: About.html
+    url: /About.html
+
+  - title: References
+    url: /TABLE.html
+
+  - title: Resources
+    url: /TABLE.html
 
   - title: Sponsor
-    url: SPONSORS.md
+    url: /SPONSORS.html
     
   - title: Help
-    url: help.md
+    url: HELP.html

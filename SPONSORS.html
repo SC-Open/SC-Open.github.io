@@ -1,6 +1,10 @@
-# Sponsors
-Thank you for your support!
-----
+---
+template: default
+---
+<!DOCTYPE html>
+<h1>Sponsors</h1>
+<p>Thank you for your support!</p>
+
 {% for sponsor in site.data.sponsors %}
 [![{{ sponsor.name }}]({{ sponsor.logo }})]({{ sponsor.url }})
 {% endfor %}
