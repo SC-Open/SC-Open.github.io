@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <ul>
-    {% for item in site.data.nav.toc %}
+    {% for item in site.data.nav.nav %}
       <li><a href="{{ item.url }}">{{ item.title }}</a>
         {% if item.subnav %}
-          {% include navigation.html nav=item.subnav %}
+          {% include nav.html nav=item.subnav %}
         {% endif %}
       </li>
     {% endfor %}
