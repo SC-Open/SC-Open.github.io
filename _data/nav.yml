@@ -3,9 +3,9 @@ nav:
     url: README.md
     subnav:
       - title: About
-        url: About.md
+        url: About.html
         subnav:
           - title: Sponsor
-            url: Sponsor.md
+            url: SPONSORS.md
   - title: Help
     url: help.md
