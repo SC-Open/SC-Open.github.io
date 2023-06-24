@@ -1,0 +1,22 @@
+---
+template: default
+---
+<!DOCTYPE html>
+<h1>Community Projects</h1>
+<p>Here is a helpful table of SC Projects</p>
+
+<table>
+    {% for row in site.data.communityprojects %}
+      {% if forloop.first %}
+      <tr>
+        {% for pair in row %}
+          <th>{{ pair[0] }}</th>
+        {% endfor %}
+      </tr>
+      {% endif %}
+
+      {% tablerow pair in row %}
+         {{ pair[1] }}
+    {% endtablerow %}
+    {% endfor %}
+  </table>
